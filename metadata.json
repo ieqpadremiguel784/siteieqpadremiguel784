@@ -1,0 +1,6 @@
+{
+  "name": "Igreja Quadrangular Padre Miguel - Região 784",
+  "description": "Landing Page Institucional da Igreja do Evangelho Quadrangular de Padre Miguel - RJ (Região 784). Informações sobre cultos, 4 ênfases quadrangulares, pedidos de oração, ministérios e localização.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

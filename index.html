@@ -1,0 +1,3557 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igreja do Evangelho Quadrangular | Padre Miguel - RJ | Região 784</title>
+    <meta name="description" content="Igreja do Evangelho Quadrangular de Padre Miguel - RJ (Região 784). Cultos, palavra de Deus, comunhão, pedidos de oração e informações. Pastoreada pelo Pr. Silvio Fernandes.">
+    <meta name="theme-color" content="#9c1015">
+    <meta name="color-scheme" content="light">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (Compartilhamento em WhatsApp, Facebook, Instagram) -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Igreja do Evangelho Quadrangular | Padre Miguel - Região 784">
+    <meta property="og:description" content="Um lugar para encontrar Deus, crescer na fé e viver em comunhão. Cultos às quintas e domingos às 19h. Venha nos visitar!">
+    <meta property="og:site_name" content="IEQ Padre Miguel - Região 784">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Favicon SVG Inline Seguro (Cores oficiais Quadrangular) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%239c1015'/%3E%3Cpath d='M32 10v44M18 24h28' stroke='%23ffffff' stroke-width='6' stroke-linecap='round'/%3E%3Ccircle cx='18' cy='46' r='4' fill='%23f59e0b'/%3E%3Ccircle cx='46' cy='46' r='4' fill='%230284c7'/%3E%3Ccircle cx='32' cy='46' r='4' fill='%237c3aed'/%3E%3C/svg%3E">
+
+    <!-- Fontes Google de Alto Desempenho -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+    <style>
+        /* ==========================================================================
+           VARIÁVEIS DE DESIGN & TEMA INSTITUCIONAL QUADRANGULAR
+           ========================================================================== */
+        :root {
+            /* Cores Oficiais da Doutrina Quadrangular */
+            --ieq-red: #9c1015;          /* Jesus Salvador (Vermelho) */
+            --ieq-red-dark: #7a0c10;
+            --ieq-red-light: #fef2f2;
+            --ieq-yellow: #d97706;       /* Jesus Batizador (Amarelo Ouro) */
+            --ieq-yellow-bg: #fffbeb;
+            --ieq-blue: #0284c7;         /* Jesus Médico (Azul Celeste) */
+            --ieq-blue-bg: #f0f9ff;
+            --ieq-purple: #7c3aed;       /* Jesus Rei que Voltará (Roxo Imperial) */
+            --ieq-purple-bg: #faf5ff;
+
+            /* Escala Neutra e Superfícies */
+            --bg-body: #f8fafc;
+            --bg-surface: #ffffff;
+            --bg-muted: #f1f5f9;
+            --border-color: #e2e8f0;
+            --border-subtle: #edf2f7;
+
+            /* Tipografia */
+            --text-main: #0f172a;
+            --text-secondary: #475569;
+            --text-muted: #64748b;
+            --text-light: #ffffff;
+
+            /* Tipografia & Fontes */
+            --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            --font-serif: 'Playfair Display', Georgia, serif;
+
+            /* Efeitos e Sombras */
+            --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+            --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+
+            /* Raios de borda */
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 18px;
+            --radius-xl: 24px;
+            --radius-full: 9999px;
+
+            /* Transições */
+            --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+            --transition-normal: 250ms cubic-bezier(0.16, 1, 0.3, 1);
+
+            /* Layout */
+            --header-height: 74px;
+            --container-max: 1200px;
+        }
+
+        /* ==========================================================================
+           RESET MODERNO & BASE
+           ========================================================================== */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-family: var(--font-sans);
+            font-size: 16px;
+            scroll-behavior: smooth;
+            -webkit-text-size-adjust: 100%;
+            color-scheme: light;
+            scroll-padding-top: calc(var(--header-height) + 16px);
+        }
+
+        body {
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            min-height: 100vh;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        img, svg {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: color var(--transition-fast);
+        }
+
+        button, input, textarea, select {
+            font: inherit;
+            color: inherit;
+        }
+
+        button {
+            cursor: pointer;
+            background: none;
+            border: none;
+        }
+
+        /* Acessibilidade de Foco */
+        :focus-visible {
+            outline: 2px solid var(--ieq-red);
+            outline-offset: 3px;
+        }
+
+        /* Link Pular para Conteúdo */
+        .skip-link {
+            position: absolute;
+            top: -100px;
+            left: 16px;
+            z-index: 9999;
+            background: var(--ieq-red);
+            color: #ffffff;
+            padding: 12px 20px;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            transition: top var(--transition-fast);
+        }
+        .skip-link:focus {
+            top: 16px;
+        }
+
+        /* ==========================================================================
+           UTILITÁRIOS E CONTAINER
+           ========================================================================== */
+        .container {
+            width: 100%;
+            max-width: var(--container-max);
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .section {
+            padding: 72px 0;
+        }
+
+        @media (min-width: 768px) {
+            .section {
+                padding: 100px 0;
+            }
+        }
+
+        .section-heading {
+            text-align: center;
+            max-width: 680px;
+            margin: 0 auto 48px;
+        }
+
+        .section-heading.text-left {
+            text-align: left;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .section-label {
+            display: inline-block;
+            font-size: 0.8125rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--ieq-red);
+            margin-bottom: 12px;
+        }
+
+        .section-title {
+            font-size: clamp(1.85rem, 3.2vw, 2.5rem);
+            font-weight: 800;
+            color: var(--text-main);
+            line-height: 1.2;
+            letter-spacing: -0.025em;
+            margin-bottom: 16px;
+            text-wrap: balance;
+        }
+
+        .section-desc {
+            font-size: 1.0625rem;
+            color: var(--text-secondary);
+            line-height: 1.65;
+            text-wrap: balance;
+        }
+
+        /* Quatro Barras Coloridas da IEQ */
+        .ieq-color-stripe {
+            display: flex;
+            height: 4px;
+            width: 100%;
+        }
+        .ieq-color-stripe .stripe-red { flex: 1; background-color: var(--ieq-red); }
+        .ieq-color-stripe .stripe-yellow { flex: 1; background-color: var(--ieq-yellow); }
+        .ieq-color-stripe .stripe-blue { flex: 1; background-color: var(--ieq-blue); }
+        .ieq-color-stripe .stripe-purple { flex: 1; background-color: var(--ieq-purple); }
+
+        /* Botões de Ação */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 13px 26px;
+            border-radius: var(--radius-md);
+            font-size: 0.9375rem;
+            font-weight: 700;
+            white-space: nowrap;
+            transition: all var(--transition-fast);
+            border: 1px solid transparent;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background-color: var(--ieq-red);
+            color: #ffffff;
+            box-shadow: 0 4px 14px rgba(156, 16, 21, 0.28);
+        }
+        .btn-primary:hover {
+            background-color: var(--ieq-red-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(156, 16, 21, 0.35);
+        }
+
+        .btn-secondary {
+            background-color: #ffffff;
+            color: var(--text-main);
+            border-color: var(--border-color);
+            box-shadow: var(--shadow-sm);
+        }
+        .btn-secondary:hover {
+            background-color: var(--bg-muted);
+            border-color: #cbd5e1;
+            transform: translateY(-2px);
+        }
+
+        .btn-light {
+            background-color: rgba(255, 255, 255, 0.15);
+            color: #ffffff;
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+        }
+        .btn-light:hover {
+            background-color: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .btn-sm {
+            padding: 8px 16px;
+            font-size: 0.84rem;
+            border-radius: var(--radius-sm);
+        }
+
+        .text-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.9375rem;
+            font-weight: 700;
+            color: var(--ieq-red);
+            transition: gap var(--transition-fast);
+        }
+        .text-link:hover {
+            gap: 10px;
+            text-decoration: underline;
+        }
+
+        /* ==========================================================================
+           CABEÇALHO & NAVEGAÇÃO RESPONSIVA
+           ========================================================================== */
+        .header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.94);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border-color);
+            transition: box-shadow var(--transition-fast);
+        }
+
+        .header.scrolled {
+            box-shadow: var(--shadow-md);
+        }
+
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: var(--header-height);
+            gap: 24px;
+        }
+
+        /* Marca / Logo */
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-shrink: 0;
+            user-select: none;
+        }
+
+        .brand-logo-wrap {
+            width: 48px;
+            height: 48px;
+            border-radius: var(--radius-md);
+            background: linear-gradient(135deg, #7a0c10 0%, #9c1015 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            box-shadow: 0 4px 10px rgba(156, 16, 21, 0.3);
+            flex-shrink: 0;
+        }
+
+        .brand-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.15;
+        }
+
+        .brand-title {
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: var(--text-main);
+            letter-spacing: -0.02em;
+        }
+
+        .brand-location {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-weight: 500;
+        }
+
+        .brand-location strong {
+            color: var(--ieq-red);
+            font-weight: 700;
+        }
+
+        /* Menu Principal Desktop */
+        .nav-center {
+            display: none;
+        }
+
+        @media (min-width: 992px) {
+            .nav-center {
+                display: flex;
+                align-items: center;
+                gap: 28px;
+            }
+
+            .nav-link {
+                font-size: 0.9375rem;
+                font-weight: 600;
+                color: var(--text-secondary);
+                padding: 8px 0;
+                position: relative;
+                white-space: nowrap;
+            }
+
+            .nav-link::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 0%;
+                height: 2px;
+                background-color: var(--ieq-red);
+                transition: width var(--transition-fast);
+            }
+
+            .nav-link:hover {
+                color: var(--ieq-red);
+            }
+            .nav-link:hover::after {
+                width: 100%;
+            }
+        }
+
+        /* Ações do Topo */
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .nav-cta-btn {
+            display: none;
+        }
+        @media (min-width: 640px) {
+            .nav-cta-btn {
+                display: inline-flex;
+            }
+        }
+
+        /* Botão do Menu Hambúrguer (Mobile) */
+        .menu-toggle {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 44px;
+            height: 44px;
+            border-radius: var(--radius-sm);
+            color: var(--text-main);
+            border: 1px solid var(--border-color);
+            background: #ffffff;
+            transition: background var(--transition-fast);
+        }
+        .menu-toggle:hover {
+            background: var(--bg-muted);
+        }
+
+        .menu-toggle-icon {
+            width: 22px;
+            height: 18px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .menu-toggle-icon span {
+            display: block;
+            height: 2px;
+            width: 100%;
+            background-color: var(--text-main);
+            border-radius: 2px;
+            transition: transform var(--transition-normal), opacity var(--transition-fast);
+        }
+
+        .menu-toggle[aria-expanded="true"] .menu-toggle-icon span:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+        .menu-toggle[aria-expanded="true"] .menu-toggle-icon span:nth-child(2) {
+            opacity: 0;
+        }
+        .menu-toggle[aria-expanded="true"] .menu-toggle-icon span:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+
+        @media (min-width: 992px) {
+            .menu-toggle {
+                display: none;
+            }
+        }
+
+        /* Menu Gaveta Mobile */
+        .mobile-menu-overlay {
+            position: fixed;
+            top: var(--header-height);
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(15, 23, 42, 0.4);
+            backdrop-filter: blur(4px);
+            z-index: 998;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity var(--transition-normal), visibility var(--transition-normal);
+        }
+
+        .mobile-menu-overlay.is-active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .mobile-menu-drawer {
+            position: fixed;
+            top: var(--header-height);
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            max-width: 320px;
+            background: #ffffff;
+            z-index: 999;
+            box-shadow: -8px 0 24px rgba(0, 0, 0, 0.12);
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            transform: translateX(100%);
+            transition: transform var(--transition-normal);
+            overflow-y: auto;
+        }
+
+        .mobile-menu-drawer.is-active {
+            transform: translateX(0);
+        }
+
+        .mobile-nav-link {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 16px;
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--text-main);
+            border-radius: var(--radius-md);
+            transition: background var(--transition-fast);
+        }
+        .mobile-nav-link:hover, .mobile-nav-link:focus {
+            background-color: var(--bg-muted);
+            color: var(--ieq-red);
+        }
+
+        /* ==========================================================================
+           HERO SECTION INSTITUCIONAL
+           ========================================================================== */
+        .hero {
+            position: relative;
+            background: linear-gradient(135deg, #5b070a 0%, #7d0b10 45%, #9c1015 85%, #b91c1c 100%);
+            color: #ffffff;
+            padding: 80px 0 90px;
+            overflow: hidden;
+        }
+
+        /* Efeito de iluminação suave de fundo */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -20%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(245, 158, 11, 0.18) 0%, rgba(2, 132, 199, 0.12) 40%, transparent 70%);
+            filter: blur(60px);
+            pointer-events: none;
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 12px;
+            background: linear-gradient(90deg, 
+                var(--ieq-red) 25%, 
+                var(--ieq-yellow) 25% 50%, 
+                var(--ieq-blue) 50% 75%, 
+                var(--ieq-purple) 75% 100%);
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            align-items: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        @media (min-width: 992px) {
+            .hero {
+                padding: 100px 0 110px;
+            }
+            .hero-grid {
+                grid-template-columns: 1.15fr 0.85fr;
+                gap: 56px;
+            }
+        }
+
+        .hero-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: #fde047;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            background: rgba(0, 0, 0, 0.25);
+            padding: 6px 14px;
+            border-radius: var(--radius-full);
+            border: 1px solid rgba(253, 224, 71, 0.3);
+            width: fit-content;
+        }
+
+        .hero-title {
+            font-size: clamp(2.1rem, 4.2vw, 3.4rem);
+            font-weight: 800;
+            line-height: 1.14;
+            letter-spacing: -0.03em;
+            margin-bottom: 20px;
+            color: #ffffff;
+            text-wrap: balance;
+        }
+
+        .hero-title span {
+            color: #fef08a;
+            position: relative;
+        }
+
+        .hero-desc {
+            font-size: 1.125rem;
+            line-height: 1.65;
+            color: #fecdd3;
+            margin-bottom: 36px;
+            max-width: 580px;
+            text-wrap: balance;
+        }
+
+        .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            margin-bottom: 32px;
+        }
+
+        /* Cartão de Destaque da Liderança / Próximo Culto no Hero */
+        .hero-side-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: var(--radius-xl);
+            padding: 32px;
+            color: #ffffff;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+        }
+
+        .hero-live-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.8125rem;
+            font-weight: 700;
+            color: #ffffff;
+            background: rgba(220, 38, 38, 0.6);
+            padding: 4px 10px;
+            border-radius: var(--radius-full);
+            margin-bottom: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .hero-side-title {
+            font-size: 1.4rem;
+            font-weight: 800;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+
+        .hero-side-desc {
+            font-size: 0.9375rem;
+            color: #fce7f3;
+            margin-bottom: 24px;
+            line-height: 1.55;
+        }
+
+        .hero-schedule-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.15);
+            padding-top: 18px;
+        }
+
+        .hero-schedule-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.9375rem;
+        }
+
+        .hero-schedule-day {
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .hero-schedule-time {
+            font-weight: 800;
+            color: #fef08a;
+            background: rgba(0, 0, 0, 0.25);
+            padding: 4px 10px;
+            border-radius: var(--radius-sm);
+        }
+
+        /* Barra de Fatos Rápidos abaixo do Hero */
+        .hero-quick-strip {
+            background-color: #ffffff;
+            border-bottom: 1px solid var(--border-color);
+            padding: 24px 0;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .quick-strip-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .quick-strip-grid {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 28px;
+            }
+        }
+
+        .quick-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+
+        .quick-icon-wrap {
+            width: 44px;
+            height: 44px;
+            border-radius: var(--radius-md);
+            background: var(--bg-muted);
+            color: var(--ieq-red);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .quick-text strong {
+            display: block;
+            font-size: 0.9375rem;
+            font-weight: 800;
+            color: var(--text-main);
+            line-height: 1.25;
+        }
+
+        .quick-text span {
+            font-size: 0.8125rem;
+            color: var(--text-muted);
+        }
+
+        /* ==========================================================================
+           SEÇÃO BOAS-VINDAS & PROPÓSITO
+           ========================================================================== */
+        .welcome-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        @media (min-width: 992px) {
+            .welcome-grid {
+                grid-template-columns: 1.15fr 0.85fr;
+                gap: 64px;
+            }
+        }
+
+        .welcome-content .lead {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-main);
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        .welcome-content p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            line-height: 1.7;
+            margin-bottom: 24px;
+        }
+
+        .values-pills-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+            margin-top: 32px;
+        }
+
+        @media (min-width: 600px) {
+            .values-pills-list {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .value-box {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            box-shadow: var(--shadow-sm);
+            transition: transform var(--transition-fast), border-color var(--transition-fast);
+        }
+        .value-box:hover {
+            transform: translateY(-3px);
+            border-color: var(--ieq-red);
+        }
+
+        .value-box-icon {
+            color: var(--ieq-red);
+            margin-bottom: 10px;
+        }
+
+        .value-box h3 {
+            font-size: 1rem;
+            font-weight: 800;
+            margin-bottom: 6px;
+            color: var(--text-main);
+        }
+
+        .value-box p {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            line-height: 1.45;
+            margin-bottom: 0;
+        }
+
+        /* Cartão de Citação com Borda Harmoniosa */
+        .welcome-card {
+            background: linear-gradient(135deg, #ffffff 0%, #fffbfb 100%);
+            border: 1px solid #fecdd3;
+            border-radius: var(--radius-xl);
+            padding: 36px 32px;
+            box-shadow: var(--shadow-md);
+            position: relative;
+            text-align: center;
+        }
+
+        .welcome-card-emblem {
+            width: 58px;
+            height: 58px;
+            margin: 0 auto 20px;
+            background: var(--ieq-red-light);
+            color: var(--ieq-red);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .welcome-card h3 {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 16px;
+        }
+
+        .welcome-card blockquote {
+            font-family: var(--font-serif);
+            font-size: 1.25rem;
+            font-style: italic;
+            color: var(--text-main);
+            line-height: 1.5;
+            margin-bottom: 16px;
+        }
+
+        .welcome-card figcaption {
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: var(--ieq-red);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+        }
+
+        /* ==========================================================================
+           DOUTRINA QUADRANGULAR (OS 4 PILARES DA FÉ)
+           ========================================================================== */
+        .quadrangular-section {
+            background-color: #ffffff;
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .faith-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        @media (min-width: 640px) {
+            .faith-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .faith-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        .faith-card {
+            background: #ffffff;
+            border-radius: var(--radius-lg);
+            padding: 32px 24px;
+            transition: all var(--transition-normal);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid var(--border-color);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .faith-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        /* Variações de Cores dos 4 Pilares */
+        .faith-card.card-salvation {
+            border-top: 4px solid var(--ieq-red);
+        }
+        .faith-card.card-salvation .faith-icon-wrap {
+            background-color: #fee2e2;
+            color: var(--ieq-red);
+        }
+        .faith-card.card-salvation .pillar-color-label {
+            color: var(--ieq-red);
+        }
+
+        .faith-card.card-baptism {
+            border-top: 4px solid var(--ieq-yellow);
+        }
+        .faith-card.card-baptism .faith-icon-wrap {
+            background-color: #fef3c7;
+            color: var(--ieq-yellow);
+        }
+        .faith-card.card-baptism .pillar-color-label {
+            color: var(--ieq-yellow);
+        }
+
+        .faith-card.card-healing {
+            border-top: 4px solid var(--ieq-blue);
+        }
+        .faith-card.card-healing .faith-icon-wrap {
+            background-color: #e0f2fe;
+            color: var(--ieq-blue);
+        }
+        .faith-card.card-healing .pillar-color-label {
+            color: var(--ieq-blue);
+        }
+
+        .faith-card.card-king {
+            border-top: 4px solid var(--ieq-purple);
+        }
+        .faith-card.card-king .faith-icon-wrap {
+            background-color: #f3e8ff;
+            color: var(--ieq-purple);
+        }
+        .faith-card.card-king .pillar-color-label {
+            color: var(--ieq-purple);
+        }
+
+        .faith-icon-wrap {
+            width: 60px;
+            height: 60px;
+            border-radius: var(--radius-md);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            flex-shrink: 0;
+        }
+
+        .pillar-color-label {
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 6px;
+        }
+
+        .faith-card h3 {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 12px;
+            line-height: 1.25;
+        }
+
+        .faith-card p {
+            font-size: 0.9375rem;
+            color: var(--text-secondary);
+            line-height: 1.55;
+            margin-bottom: 16px;
+            flex-grow: 1;
+        }
+
+        .faith-verse-ref {
+            font-size: 0.8125rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            border-top: 1px dashed var(--border-color);
+            padding-top: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* ==========================================================================
+           SOBRE A IGREJA & MINISTÉRIO PASTORAL
+           ========================================================================== */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 48px;
+            align-items: center;
+        }
+
+        @media (min-width: 992px) {
+            .about-grid {
+                grid-template-columns: 0.95fr 1.05fr;
+                gap: 64px;
+            }
+        }
+
+        .about-visual-column {
+            position: relative;
+        }
+
+        /* Cartão Visual Arquitetônico Institucional */
+        .church-architecture-card {
+            background: linear-gradient(145deg, #1e293b 0%, #0f172a 100%);
+            color: #ffffff;
+            border-radius: var(--radius-xl);
+            padding: 36px 30px;
+            box-shadow: var(--shadow-xl);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #334155;
+        }
+
+        .church-architecture-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 250px;
+            height: 250px;
+            background: radial-gradient(circle, rgba(156, 16, 21, 0.4) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .church-badge-hero {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+
+        .church-badge-icon {
+            width: 52px;
+            height: 52px;
+            border-radius: var(--radius-md);
+            background: var(--ieq-red);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            box-shadow: 0 4px 12px rgba(156, 16, 21, 0.4);
+            flex-shrink: 0;
+        }
+
+        .church-badge-text h4 {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: #ffffff;
+        }
+        .church-badge-text p {
+            font-size: 0.8125rem;
+            color: #94a3b8;
+        }
+
+        .pastor-highlight-box {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: var(--radius-lg);
+            padding: 20px;
+            margin-top: 24px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .pastor-avatar-emblem {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #9c1015, #f59e0b);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1.15rem;
+            color: #ffffff;
+            flex-shrink: 0;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .pastor-info-text strong {
+            display: block;
+            font-size: 1.05rem;
+            color: #ffffff;
+            font-weight: 800;
+        }
+        .pastor-info-text span {
+            font-size: 0.84rem;
+            color: #cbd5e1;
+        }
+
+        .about-text-column p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .about-quote {
+            font-size: 1.05rem;
+            font-style: italic;
+            border-left: 3px solid var(--ieq-red);
+            padding-left: 16px;
+            color: var(--text-main);
+            margin: 20px 0 28px;
+            font-family: var(--font-serif);
+        }
+
+        .mini-stats {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin-top: 32px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .mini-stat-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .mini-stat-card strong {
+            display: block;
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--ieq-red);
+            line-height: 1.1;
+            margin-bottom: 4px;
+            font-variant-numeric: tabular-nums;
+        }
+
+        .mini-stat-card span {
+            font-size: 0.8125rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+        }
+
+        /* ==========================================================================
+           PROGRAMAÇÃO & HORÁRIOS DOS CULTOS
+           ========================================================================== */
+        .schedule-section {
+            background-color: #ffffff;
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .schedule-day-alert {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background-color: var(--ieq-red-light);
+            border: 1px solid #fecdd3;
+            color: var(--ieq-red-dark);
+            padding: 14px 20px;
+            border-radius: var(--radius-md);
+            max-width: 680px;
+            margin: 0 auto 36px;
+            font-size: 0.9375rem;
+            font-weight: 600;
+        }
+
+        .schedule-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        @media (min-width: 768px) {
+            .schedule-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .schedule-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            padding: 32px 24px;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            transition: all var(--transition-normal);
+            overflow: hidden;
+        }
+
+        .schedule-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: #cbd5e1;
+        }
+
+        .schedule-card.featured-schedule {
+            border: 2px solid var(--ieq-red);
+            box-shadow: var(--shadow-md);
+        }
+
+        .featured-tag {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: var(--ieq-red);
+            color: #ffffff;
+            font-size: 0.72rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            padding: 4px 14px;
+            border-bottom-left-radius: var(--radius-md);
+            letter-spacing: 0.05em;
+        }
+
+        .schedule-day {
+            font-size: 0.8125rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--ieq-red);
+            margin-bottom: 10px;
+        }
+
+        .schedule-card h3 {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 12px;
+            line-height: 1.25;
+        }
+
+        .schedule-time-box {
+            display: inline-flex;
+            align-items: baseline;
+            gap: 8px;
+            background: var(--bg-muted);
+            padding: 8px 16px;
+            border-radius: var(--radius-md);
+            margin-bottom: 16px;
+            width: fit-content;
+        }
+
+        .schedule-time-box time {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--text-main);
+            font-variant-numeric: tabular-nums;
+        }
+
+        .schedule-time-box span {
+            font-size: 0.8125rem;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .schedule-card p {
+            font-size: 0.9375rem;
+            color: var(--text-secondary);
+            line-height: 1.55;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .schedule-badge-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin-top: auto;
+            border-top: 1px solid var(--border-color);
+            padding-top: 16px;
+        }
+
+        .schedule-chip {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            background: var(--bg-muted);
+            padding: 4px 10px;
+            border-radius: var(--radius-full);
+        }
+
+        /* ==========================================================================
+           MINISTÉRIOS DA IGREJA
+           ========================================================================== */
+        .ministries-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        @media (min-width: 640px) {
+            .ministries-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (min-width: 1024px) {
+            .ministries-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .ministry-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 28px 24px;
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition-fast);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ministry-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--ieq-red);
+        }
+
+        .ministry-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: var(--radius-md);
+            background-color: var(--ieq-red-light);
+            color: var(--ieq-red);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 18px;
+            flex-shrink: 0;
+        }
+
+        .ministry-card h3 {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        .ministry-card p {
+            font-size: 0.9375rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            flex-grow: 1;
+        }
+
+        /* ==========================================================================
+           EVENTOS & PRÓXIMAS ATIVIDADES
+           ========================================================================== */
+        .events-section {
+            background-color: #ffffff;
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .event-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        @media (min-width: 768px) {
+            .event-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .event-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            transition: all var(--transition-normal);
+        }
+
+        .event-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+            border-color: #cbd5e1;
+        }
+
+        .event-banner {
+            height: 140px;
+            background: linear-gradient(135deg, #7a0c10 0%, #9c1015 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            position: relative;
+            padding: 16px;
+            text-align: center;
+        }
+
+        .event-banner-pattern {
+            position: absolute;
+            inset: 0;
+            opacity: 0.12;
+            background-image: radial-gradient(#ffffff 2px, transparent 2px);
+            background-size: 14px 14px;
+        }
+
+        .event-badge-label {
+            font-size: 0.72rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 3px 10px;
+            border-radius: var(--radius-full);
+            margin-bottom: 6px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .event-badge-title {
+            font-size: 1.25rem;
+            font-weight: 800;
+            position: relative;
+            z-index: 1;
+        }
+
+        .event-body {
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .event-meta {
+            font-size: 0.8125rem;
+            font-weight: 700;
+            color: var(--ieq-red);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            margin-bottom: 8px;
+        }
+
+        .event-body h3 {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 10px;
+            line-height: 1.3;
+        }
+
+        .event-body p {
+            font-size: 0.9375rem;
+            color: var(--text-secondary);
+            line-height: 1.55;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
+
+        .event-btn {
+            align-self: flex-start;
+            padding: 8px 16px;
+            font-size: 0.84rem;
+        }
+
+        /* ==========================================================================
+           CONTRIBUIÇÃO PIX & DÍZIMOS
+           ========================================================================== */
+        .pix-card-box {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            border-radius: var(--radius-xl);
+            padding: 40px 32px;
+            color: #ffffff;
+            box-shadow: var(--shadow-xl);
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 32px;
+            align-items: center;
+            border: 1px solid #334155;
+        }
+
+        @media (min-width: 992px) {
+            .pix-card-box {
+                grid-template-columns: 1.2fr 0.8fr;
+                padding: 48px;
+                gap: 56px;
+            }
+        }
+
+        .pix-text-area h2 {
+            font-size: clamp(1.6rem, 2.8vw, 2.2rem);
+            font-weight: 800;
+            margin-bottom: 14px;
+            line-height: 1.2;
+        }
+
+        .pix-text-area p {
+            font-size: 1.05rem;
+            color: #cbd5e1;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .pix-verse {
+            font-family: var(--font-serif);
+            font-size: 0.95rem;
+            font-style: italic;
+            color: #fde047;
+            border-left: 2px solid #fde047;
+            padding-left: 12px;
+        }
+
+        .pix-interactive-widget {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            text-align: center;
+        }
+
+        .pix-key-label {
+            font-size: 0.8125rem;
+            font-weight: 700;
+            color: #94a3b8;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 8px;
+        }
+
+        .pix-key-display {
+            background: rgba(0, 0, 0, 0.35);
+            border: 1px dashed rgba(255, 255, 255, 0.25);
+            border-radius: var(--radius-md);
+            padding: 12px 16px;
+            font-family: monospace;
+            font-size: 0.95rem;
+            color: #ffffff;
+            word-break: break-all;
+            margin-bottom: 16px;
+            user-select: all;
+        }
+
+        .pix-btn-copy {
+            width: 100%;
+        }
+
+        /* ==========================================================================
+           PEDIDO DE ORAÇÃO (INTERATIVO COM WHATSAPP & FEEDBACK)
+           ========================================================================== */
+        .prayer-section {
+            background-color: #ffffff;
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .prayer-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 48px;
+            align-items: flex-start;
+        }
+
+        @media (min-width: 992px) {
+            .prayer-grid {
+                grid-template-columns: 0.95fr 1.05fr;
+                gap: 64px;
+            }
+        }
+
+        .prayer-info-side p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            line-height: 1.65;
+            margin-bottom: 20px;
+        }
+
+        .prayer-verse-highlight {
+            background: var(--bg-muted);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            margin: 24px 0;
+            border-left: 4px solid var(--ieq-red);
+        }
+
+        .prayer-verse-highlight blockquote {
+            font-family: var(--font-serif);
+            font-size: 1.0625rem;
+            font-style: italic;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        .prayer-verse-highlight figcaption {
+            font-size: 0.8125rem;
+            font-weight: 700;
+            color: var(--ieq-red);
+        }
+
+        .privacy-note {
+            font-size: 0.84rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Formulário de Oração */
+        .prayer-form-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            padding: 32px 28px;
+            box-shadow: var(--shadow-md);
+        }
+
+        @media (min-width: 640px) {
+            .prayer-form-card {
+                padding: 40px 36px;
+            }
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 16px;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+            background-color: #ffffff;
+            font-size: 0.9375rem;
+            color: var(--text-main);
+            transition: all var(--transition-fast);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--ieq-red);
+            box-shadow: 0 0 0 3px rgba(156, 16, 21, 0.15);
+        }
+
+        .form-control::placeholder {
+            color: #94a3b8;
+        }
+
+        textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .field-hint {
+            display: block;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-top: 6px;
+        }
+
+        .form-message {
+            margin-top: 16px;
+            padding: 14px;
+            border-radius: var(--radius-md);
+            font-size: 0.9375rem;
+            display: none;
+        }
+
+        .form-message.success {
+            display: block;
+            background-color: #ecfdf5;
+            border: 1px solid #a7f3d0;
+            color: #065f46;
+        }
+
+        .form-message.error {
+            display: block;
+            background-color: #fef2f2;
+            border: 1px solid #fecaca;
+            color: #991b1b;
+        }
+
+        /* ==========================================================================
+           CONTATO, LOCALIZAÇÃO & MAPA
+           ========================================================================== */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 24px;
+            margin-bottom: 48px;
+        }
+
+        @media (min-width: 640px) {
+            .contact-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (min-width: 1024px) {
+            .contact-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        .contact-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 28px 22px;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+        }
+
+        .contact-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+            border-color: #cbd5e1;
+        }
+
+        .contact-card-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: var(--radius-md);
+            background: var(--bg-muted);
+            color: var(--ieq-red);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 18px;
+            flex-shrink: 0;
+        }
+
+        .contact-card h3 {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 8px;
+        }
+
+        .contact-card address, .contact-card p {
+            font-style: normal;
+            font-size: 0.9375rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+            margin-bottom: 16px;
+            flex-grow: 1;
+        }
+
+        /* Caixa de Mapa e Rota */
+        .map-interactive-box {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-xl);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        @media (min-width: 992px) {
+            .map-interactive-box {
+                grid-template-columns: 1.25fr 0.75fr;
+            }
+        }
+
+        .map-iframe-wrap {
+            position: relative;
+            min-height: 360px;
+            width: 100%;
+            background: var(--bg-muted);
+        }
+
+        .map-iframe-wrap iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .map-directions-info {
+            padding: 32px 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: #ffffff;
+        }
+
+        .map-directions-info h3 {
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: var(--text-main);
+            margin-bottom: 12px;
+        }
+
+        .map-directions-info p {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .transport-tips {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+
+        .transport-tips li {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .transport-tips svg {
+            color: var(--ieq-red);
+            flex-shrink: 0;
+            margin-top: 3px;
+        }
+
+        /* ==========================================================================
+           PERGUNTAS FREQUENTES (FAQ ACCORDION)
+           ========================================================================== */
+        .faq-section {
+            background-color: #ffffff;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .faq-accordion {
+            max-width: 760px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .faq-item {
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            background: #ffffff;
+            transition: border-color var(--transition-fast);
+        }
+
+        .faq-item.is-open {
+            border-color: var(--ieq-red);
+        }
+
+        .faq-question {
+            width: 100%;
+            text-align: left;
+            padding: 18px 20px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--text-main);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            background: #ffffff;
+            transition: background var(--transition-fast);
+        }
+
+        .faq-question:hover {
+            background: var(--bg-muted);
+        }
+
+        .faq-chevron {
+            transition: transform var(--transition-normal);
+            color: var(--text-muted);
+            flex-shrink: 0;
+        }
+
+        .faq-item.is-open .faq-chevron {
+            transform: rotate(180deg);
+            color: var(--ieq-red);
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height var(--transition-normal);
+            background: #fafbfc;
+        }
+
+        .faq-answer-inner {
+            padding: 0 20px 20px;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+            border-top: 1px solid var(--border-subtle);
+            padding-top: 16px;
+        }
+
+        /* ==========================================================================
+           RODAPÉ (FOOTER)
+           ========================================================================== */
+        .footer {
+            background-color: #0b0f19;
+            color: #94a3b8;
+            padding: 64px 0 32px;
+            border-top: 1px solid #1e293b;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            margin-bottom: 48px;
+        }
+
+        @media (min-width: 768px) {
+            .footer-grid {
+                grid-template-columns: 1.4fr 1fr 1fr;
+                gap: 48px;
+            }
+        }
+
+        .footer-brand h4 {
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+
+        .footer-brand p {
+            font-size: 0.9375rem;
+            color: #94a3b8;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            max-width: 380px;
+        }
+
+        .footer-scripture {
+            font-family: var(--font-serif);
+            font-size: 0.875rem;
+            font-style: italic;
+            color: #fde047;
+            margin-top: 12px;
+            display: block;
+        }
+
+        .footer-col h5 {
+            font-size: 0.9375rem;
+            font-weight: 800;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 18px;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .footer-links a {
+            font-size: 0.9375rem;
+            color: #94a3b8;
+            transition: color var(--transition-fast);
+        }
+        .footer-links a:hover {
+            color: #ffffff;
+        }
+
+        .footer-bottom {
+            padding-top: 32px;
+            border-top: 1px solid #1e293b;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            font-size: 0.84rem;
+            color: #64748b;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) {
+            .footer-bottom {
+                flex-direction: row;
+                text-align: left;
+            }
+        }
+
+        /* ==========================================================================
+           BOTÃO FLUTUANTE DO WHATSAPP & TOAST DE NOTIFICAÇÃO
+           ========================================================================== */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 990;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #25d366;
+            color: #ffffff;
+            padding: 12px 18px;
+            border-radius: var(--radius-full);
+            box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
+            font-size: 0.9375rem;
+            font-weight: 700;
+            transition: all var(--transition-normal);
+        }
+
+        .whatsapp-float:hover {
+            background-color: #20ba5a;
+            transform: translateY(-3px) scale(1.02);
+            box-shadow: 0 12px 28px rgba(37, 211, 102, 0.5);
+            color: #ffffff;
+        }
+
+        .whatsapp-float-icon {
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+        }
+
+        .whatsapp-label {
+            display: inline-block;
+        }
+
+        @media (max-width: 480px) {
+            .whatsapp-label {
+                display: none;
+            }
+            .whatsapp-float {
+                padding: 14px;
+                border-radius: 50%;
+            }
+        }
+
+        /* Toast de Feedback */
+        .toast-notification {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background-color: #0f172a;
+            color: #ffffff;
+            padding: 12px 24px;
+            border-radius: var(--radius-full);
+            font-size: 0.9375rem;
+            font-weight: 600;
+            box-shadow: var(--shadow-xl);
+            z-index: 10000;
+            opacity: 0;
+            pointer-events: none;
+            transition: all var(--transition-normal);
+            border: 1px solid #334155;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .toast-notification.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        /* Regras para Impressão */
+        @media print {
+            .header, .whatsapp-float, .mobile-menu-overlay, .mobile-menu-drawer, .hero-buttons, .skip-link {
+                display: none !important;
+            }
+            body {
+                background: #ffffff;
+                color: #000000;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Acessibilidade: Pular Navegação -->
+<a class="skip-link" href="#conteudo">Pular diretamente para o conteúdo</a>
+
+<!-- ==========================================================================
+     CABEÇALHO & BARRA DE NAVEGAÇÃO
+     ========================================================================== -->
+<header class="header" id="inicio">
+    <div class="ieq-color-stripe" aria-hidden="true">
+        <div class="stripe-red" title="Jesus Salvador"></div>
+        <div class="stripe-yellow" title="Jesus Batizador"></div>
+        <div class="stripe-blue" title="Jesus Médico"></div>
+        <div class="stripe-purple" title="Jesus Rei"></div>
+    </div>
+
+    <div class="container nav">
+        <!-- Logo e Marca Institucional -->
+        <a class="brand" href="#inicio" aria-label="Igreja do Evangelho Quadrangular Padre Miguel - Início">
+            <div class="brand-logo-wrap" aria-hidden="true">
+                <!-- Emblema Quadrangular Vetorial -->
+                <svg width="28" height="28" viewBox="0 0 40 40" fill="none" stroke="currentColor">
+                    <!-- Cruz Estilizada -->
+                    <path d="M20 4V36M10 14H30" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div class="brand-text">
+                <span class="brand-title">IEQ Padre Miguel</span>
+                <span class="brand-location">
+                    <span>Região <strong>784</strong></span>
+                    <span>•</span>
+                    <span>Zona Oeste RJ</span>
+                </span>
+            </div>
+        </a>
+
+        <!-- Menu Desktop -->
+        <nav class="nav-center" aria-label="Menu principal">
+            <a class="nav-link" href="#inicio">Início</a>
+            <a class="nav-link" href="#igreja">Nossa Igreja</a>
+            <a class="nav-link" href="#doutrina">Nossa Fé</a>
+            <a class="nav-link" href="#programacao">Programação</a>
+            <a class="nav-link" href="#ministerios">Ministérios</a>
+            <a class="nav-link" href="#eventos">Eventos</a>
+            <a class="nav-link" href="#oracao">Oração</a>
+            <a class="nav-link" href="#contato">Localização</a>
+        </nav>
+
+        <!-- Ações do Topo -->
+        <div class="nav-actions">
+            <a class="btn btn-primary btn-sm nav-cta-btn" href="#oracao">
+                <span>Pedir Oração</span>
+            </a>
+
+            <!-- Botão Hambúrguer Mobile -->
+            <button class="menu-toggle" type="button" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mobileDrawer">
+                <div class="menu-toggle-icon" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+    </div>
+</header>
+
+<!-- Menu Drawer Mobile -->
+<div class="mobile-menu-overlay" id="mobileOverlay" aria-hidden="true"></div>
+<div class="mobile-menu-drawer" id="mobileDrawer" role="dialog" aria-modal="true" aria-label="Navegação mobile">
+    <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:1px solid var(--border-color); padding-bottom:14px; margin-bottom:8px;">
+        <span style="font-weight:800; font-size:1.05rem; color:var(--text-main);">Menu da Igreja</span>
+        <button id="closeDrawerBtn" aria-label="Fechar menu" style="padding:6px; color:var(--text-muted);">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+        </button>
+    </div>
+    <nav style="display:flex; flex-direction:column; gap:4px;">
+        <a class="mobile-nav-link" href="#inicio"><span>Início</span> <span>→</span></a>
+        <a class="mobile-nav-link" href="#igreja"><span>Nossa Igreja</span> <span>→</span></a>
+        <a class="mobile-nav-link" href="#doutrina"><span>Nossa Fé (4 Pilares)</span> <span>→</span></a>
+        <a class="mobile-nav-link" href="#programacao"><span>Cultos & Horários</span> <span>→</span></a>
+        <a class="mobile-nav-link" href="#ministerios"><span>Ministérios</span> <span>→</span></a>
+        <a class="mobile-nav-link" href="#eventos"><span>Eventos</span> <span>→</span></a>
+        <a class="mobile-nav-link" href="#dizimos"><span>Dízimos & PIX</span> <span>→</span></a>
+        <a class="mobile-nav-link" href="#oracao"><span>Pedido de Oração</span> <span>→</span></a>
+        <a class="mobile-nav-link" href="#contato"><span>Onde Estamos</span> <span>→</span></a>
+    </nav>
+    <div style="margin-top:auto; padding-top:16px; border-top:1px solid var(--border-color);">
+        <a class="btn btn-primary" style="width:100%;" href="#programacao">Ver Próximo Culto</a>
+    </div>
+</div>
+
+<main id="conteudo">
+
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-eyebrow">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 0 1 0-5 2.5 2.5 0 0 1 0 5z"/>
+                    </svg>
+                    Região 784 • Padre Miguel - RJ
+                </span>
+                
+                <h1 class="hero-title" id="hero-title">
+                    Um lugar para <span>encontrar Deus</span>, crescer na fé e viver em comunhão.
+                </h1>
+
+                <p class="hero-desc">
+                    Seja bem-vindo à Igreja do Evangelho Quadrangular de Padre Miguel. Nossa casa e nossos corações estão de portas abertas para você e sua família viverem o amor de Cristo.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="btn btn-primary" href="#programacao">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                        Ver Horários dos Cultos
+                    </a>
+
+                    <a class="btn btn-light" href="#oracao">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9 9 0 100-18 9 9 0 000 18z"/>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3"/>
+                        </svg>
+                        Pedir Oração
+                    </a>
+
+                    <a class="btn btn-light" href="#contato">
+                        <span>Como Chegar</span>
+                    </a>
+                </div>
+
+                <div style="display:flex; align-items:center; gap:16px; font-size:0.875rem; color:#fce7f3;">
+                    <span>📍 Rua Olímpia Esteves, 1592</span>
+                    <span>•</span>
+                    <span>Pr. Silvio Fernandes</span>
+                </div>
+            </div>
+
+            <!-- Cartão Lateral no Hero com Informações Rápidas -->
+            <div class="hero-side-card">
+                <div class="hero-live-badge">
+                    <svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor">
+                        <circle cx="4" cy="4" r="4"/>
+                    </svg>
+                    Encontros da Semana
+                </div>
+
+                <h2 class="hero-side-title">Participe dos Nossos Cultos</h2>
+                <p class="hero-side-desc">
+                    Venha celebrar ao Senhor conosco na Zona Oeste do Rio. Traga sua família para momentos de louvor e ensino da Palavra de Deus.
+                </p>
+
+                <ul class="hero-schedule-list">
+                    <li class="hero-schedule-item">
+                        <span class="hero-schedule-day">Quinta-feira • Fé & Oração</span>
+                        <span class="hero-schedule-time">19:00</span>
+                    </li>
+                    <li class="hero-schedule-item">
+                        <span class="hero-schedule-day">Domingo • Culto da Família</span>
+                        <span class="hero-schedule-time">19:00</span>
+                    </li>
+                </ul>
+
+                <a class="btn btn-secondary" style="width:100%;" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Olimpia+Esteves+1592+Padre+Miguel+Rio+de+Janeiro+RJ+21775-003" target="_blank" rel="noopener noreferrer">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    </svg>
+                    Abrir no Google Maps
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fatos Rápidos abaixo do Hero -->
+    <div class="hero-quick-strip" aria-label="Informações essenciais">
+        <div class="container">
+            <div class="quick-strip-grid">
+                <div class="quick-item">
+                    <div class="quick-icon-wrap" aria-hidden="true">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
+                        </svg>
+                    </div>
+                    <div class="quick-text">
+                        <strong>Região 784</strong>
+                        <span>Igreja Quadrangular RJ</span>
+                    </div>
+                </div>
+
+                <div class="quick-item">
+                    <div class="quick-icon-wrap" aria-hidden="true">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                            <line x1="16" y1="2" x2="16" y2="6"/>
+                            <line x1="8" y1="2" x2="8" y2="6"/>
+                            <line x1="3" y1="10" x2="21" y2="10"/>
+                        </svg>
+                    </div>
+                    <div class="quick-text">
+                        <strong>Quintas e Domingos</strong>
+                        <span>Às 19:00 horas</span>
+                    </div>
+                </div>
+
+                <div class="quick-item">
+                    <div class="quick-icon-wrap" aria-hidden="true">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <div class="quick-text">
+                        <strong>Pr. Silvio Fernandes</strong>
+                        <span>Pastor Responsável</span>
+                    </div>
+                </div>
+
+                <div class="quick-item">
+                    <div class="quick-icon-wrap" aria-hidden="true">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <div class="quick-text">
+                        <strong>Padre Miguel</strong>
+                        <span>R. Olímpia Esteves, 1592</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==========================================================================
+         SEÇÃO BOAS-VINDAS & PROPÓSITO
+         ========================================================================== -->
+    <section class="welcome section" aria-labelledby="welcome-title">
+        <div class="container welcome-grid">
+            <div class="welcome-content">
+                <span class="section-label">Seja Bem-vindo</span>
+                <h2 class="section-title" id="welcome-title">Você é parte da nossa família.</h2>
+                <p class="lead">
+                    Queremos caminhar com você em uma jornada genuína de fé, esperança e amor.
+                </p>
+                <p>
+                    Aqui na Igreja Quadrangular de Padre Miguel você encontra um ambiente caloroso, cultos inspiradores, oração constante por suas necessidades, ensino bíblico para a vida prática e comunhão verdadeira. Independentemente da sua história, há um lugar especial preparado para você.
+                </p>
+
+                <!-- Pilares de Valor da Comunidade -->
+                <div class="values-pills-list">
+                    <div class="value-box">
+                        <div class="value-box-icon" aria-hidden="true">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                            </svg>
+                        </div>
+                        <h3>Acolhimento</h3>
+                        <p>Braços abertos para acolher você e sua família com carinho cristão.</p>
+                    </div>
+
+                    <div class="value-box">
+                        <div class="value-box-icon" aria-hidden="true">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+                            </svg>
+                        </div>
+                        <h3>Palavra Bíblica</h3>
+                        <p>Mensagens de fé e esperança fundamentadas nas Sagradas Escrituras.</p>
+                    </div>
+
+                    <div class="value-box">
+                        <div class="value-box-icon" aria-hidden="true">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M8 12h8M12 8v8"/>
+                            </svg>
+                        </div>
+                        <h3>Comunhão</h3>
+                        <p>Grupos e ministérios para crescer juntos em amizade e oração.</p>
+                    </div>
+                </div>
+
+                <div style="margin-top: 28px;">
+                    <a href="#igreja" class="text-link">Conheça mais sobre a nossa igreja →</a>
+                </div>
+            </div>
+
+            <!-- Card com o Versículo de Destaque -->
+            <figure class="welcome-card">
+                <div class="welcome-card-emblem" aria-hidden="true">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                </div>
+                <h3>Jesus Transforma Vidas</h3>
+                <blockquote>
+                    “Eu vim para que tenham vida, e a tenham com abundância.”
+                </blockquote>
+                <figcaption>Evangelho de João 10:10</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         DOUTRINA QUADRANGULAR (UMA IGREJA, QUATRO ÊNFASES)
+         ========================================================================== -->
+    <section class="quadrangular-section section" id="doutrina" aria-labelledby="faith-title">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-label">Nossa Identidade & Doutrina</span>
+                <h2 class="section-title" id="faith-title">Uma Igreja, Quatro Ênfases</h2>
+                <p class="section-desc">
+                    O Evangelho Quadrangular proclama Jesus Cristo em quatro aspectos essenciais fundamentados na Bíblia Sagrada.
+                </p>
+            </div>
+
+            <div class="faith-grid">
+                <!-- 1. Jesus Salvador (Vermelho / Cruz) -->
+                <article class="faith-card card-salvation">
+                    <div class="faith-icon-wrap" aria-hidden="true">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M12 2v20M6 8h12" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <span class="pillar-color-label">Cor Vermelha • Cruz</span>
+                    <h3>Jesus Salvador</h3>
+                    <p>
+                        Cremos que Jesus Cristo morreu na cruz do Calvário para perdoar os nossos pecados e nos conceder vida eterna. Nele temos redenção e paz com Deus.
+                    </p>
+                    <div class="faith-verse-ref">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+                        </svg>
+                        <span>Lucas 19:10 & João 3:16</span>
+                    </div>
+                </article>
+
+                <!-- 2. Jesus Batizador com o Espírito Santo (Amarelo / Pomba) -->
+                <article class="faith-card card-baptism">
+                    <div class="faith-icon-wrap" aria-hidden="true">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                            <path d="M12 2c-4 4-7 8-7 12 0 4 3 6 7 6s7-2 7-6c0-4-3-8-7-12z" stroke-linecap="round"/>
+                            <path d="M12 12v6" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <span class="pillar-color-label">Cor Amarela • Pomba</span>
+                    <h3>Jesus Batizador</h3>
+                    <p>
+                        Cremos no batismo com o Espírito Santo como uma promessa para todos os crentes, revestindo a igreja de autoridade, dons e poder para testemunhar.
+                    </p>
+                    <div class="faith-verse-ref">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+                        </svg>
+                        <span>Atos 1:8 & Lucas 3:16</span>
+                    </div>
+                </article>
+
+                <!-- 3. Jesus Médico Divino (Azul / Cálice) -->
+                <article class="faith-card card-healing">
+                    <div class="faith-icon-wrap" aria-hidden="true">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                            <path d="M6 3h12v5a6 6 0 01-12 0V3z" stroke-linecap="round"/>
+                            <path d="M12 14v6M8 20h8" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <span class="pillar-color-label">Cor Azul • Cálice</span>
+                    <h3>Jesus Médico</h3>
+                    <p>
+                        Cremos na cura divina para o corpo, alma e espírito. O mesmo Jesus que operou milagres no passado continua curando e restaurando vidas hoje.
+                    </p>
+                    <div class="faith-verse-ref">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+                        </svg>
+                        <span>Tiago 5:14-15 & Isaías 53:4-5</span>
+                    </div>
+                </article>
+
+                <!-- 4. Jesus o Rei que Há de Vir (Roxo / Coroa) -->
+                <article class="faith-card card-king">
+                    <div class="faith-icon-wrap" aria-hidden="true">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                            <path d="M2 7l4 12h12l4-12-5 4-5-7-5 7-5-4z" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <span class="pillar-color-label">Cor Roxa • Coroa</span>
+                    <h3>Jesus Rei</h3>
+                    <p>
+                        Aguardamos com alegre esperança a gloriosa volta do Senhor Jesus para arrebatar a Sua igreja e reinar com justiça e paz por toda a eternidade.
+                    </p>
+                    <div class="faith-verse-ref">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+                        </svg>
+                        <span>1 Tessalonicenses 4:16-17</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         SOBRE A IGREJA & MINISTÉRIO PASTORAL
+         ========================================================================== -->
+    <section class="about section" id="igreja" aria-labelledby="about-title">
+        <div class="container about-grid">
+            <!-- Coluna Visual / Cartão Institucional -->
+            <div class="about-visual-column">
+                <div class="church-architecture-card">
+                    <div class="church-badge-hero">
+                        <div class="church-badge-icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+                                <polyline points="9 22 9 12 15 12 15 22"/>
+                            </svg>
+                        </div>
+                        <div class="church-badge-text">
+                            <h4>Igreja Quadrangular</h4>
+                            <p>Padre Miguel • Região 784 - RJ</p>
+                        </div>
+                    </div>
+
+                    <p style="color:#cbd5e1; font-size:0.95rem; line-height:1.6; margin-bottom:16px;">
+                        Uma igreja viva e relevante no coração de Padre Miguel. Servindo a Deus, cuidando de pessoas e proclamando a verdade do Evangelho em nossa comunidade.
+                    </p>
+
+                    <div class="pastor-highlight-box">
+                        <div class="pastor-avatar-emblem" aria-hidden="true">
+                            SF
+                        </div>
+                        <div class="pastor-info-text">
+                            <strong>Pastor Silvio Fernandes</strong>
+                            <span>Pastor Responsável da Igreja</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coluna de Texto -->
+            <div class="about-text-column">
+                <span class="section-label">Nossa História & Missão</span>
+                <h2 class="section-title" id="about-title">Uma comunidade que acolhe, ensina e serve.</h2>
+                
+                <p>
+                    A <strong>Igreja do Evangelho Quadrangular de Padre Miguel</strong> integra com honra a <strong>Região 784</strong> no Rio de Janeiro. Nosso maior compromisso é anunciar as Boas Novas de Jesus Cristo, restaurar famílias feridas, discipular gerações e agir com amor e serviço prático na Zona Oeste carioca.
+                </p>
+
+                <p>
+                    Sob o pastoreio do <strong>Pastor Silvio Fernandes</strong>, nossa congregação mantém as portas abertas para receber a todos com hospitalidade, fé vibrante e um coração pastoral pronto para apoiar você em qualquer momento de sua caminhada.
+                </p>
+
+                <blockquote class="about-quote">
+                    “Nosso chamado é sermos farol de esperança em Padre Miguel, transformando vidas pelo poder da Palavra e pelo amor em ação.”
+                </blockquote>
+
+                <!-- Estatísticas Rápidas -->
+                <ul class="mini-stats">
+                    <li class="mini-stat-card">
+                        <strong>784</strong>
+                        <span>Região IEQ</span>
+                    </li>
+                    <li class="mini-stat-card">
+                        <strong>RJ</strong>
+                        <span>Padre Miguel</span>
+                    </li>
+                    <li class="mini-stat-card">
+                        <strong>19h</strong>
+                        <span>Quintas e Domingos</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         PROGRAMAÇÃO DOS CULTOS & ENCONTROS
+         ========================================================================== -->
+    <section class="schedule-section section" id="programacao" aria-labelledby="schedule-title">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-label">Cultos & Encontros</span>
+                <h2 class="section-title" id="schedule-title">Participe dos Nossos Encontros</h2>
+                <p class="section-desc">
+                    Reunimo-nos semanalmente para buscar a Deus, ouvir Sua Palavra e desfrutar da comunhão fraternal.
+                </p>
+            </div>
+
+            <!-- Banner Dinâmico Indicando o Dia Atual -->
+            <div class="schedule-day-alert" id="scheduleTodayNotice" role="status">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <line x1="12" y1="8" x2="12" y2="12"/>
+                    <line x1="12" y1="16" x2="12.01" y2="16"/>
+                </svg>
+                <span id="scheduleNoticeText">Nossos cultos acontecem todas as Quintas e Domingos às 19:00. Venha com sua família!</span>
+            </div>
+
+            <div class="schedule-grid">
+                <!-- Culto de Quinta -->
+                <article class="schedule-card">
+                    <span class="schedule-day">Toda Quinta-feira</span>
+                    <h3>Culto de Celebração & Oração</h3>
+                    <div class="schedule-time-box">
+                        <time datetime="19:00">19:00</time>
+                        <span>Noite de Clamor</span>
+                    </div>
+                    <p>
+                        Momento especial de busca espiritual, oração intercessória por causas familiares e de saúde, louvor e uma ministração fortalecedora para a sua semana.
+                    </p>
+                    <div class="schedule-badge-list">
+                        <span class="schedule-chip">Louvor</span>
+                        <span class="schedule-chip">Intercessão</span>
+                        <span class="schedule-chip">Palavra de Vitória</span>
+                    </div>
+                </article>
+
+                <!-- Culto de Domingo (Destaque) -->
+                <article class="schedule-card featured-schedule">
+                    <span class="featured-tag">Culto Principal</span>
+                    <span class="schedule-day">Todo Domingo</span>
+                    <h3>Culto da Família & Adoração</h3>
+                    <div class="schedule-time-box">
+                        <time datetime="19:00">19:00</time>
+                        <span>Celebração Solene</span>
+                    </div>
+                    <p>
+                        A grande reunião da nossa congregação. Adoração inspiradora, mensagens profundas da Bíblia, ambiente acolhedor para as crianças e bênção para o seu lar.
+                    </p>
+                    <div class="schedule-badge-list">
+                        <span class="schedule-chip">Culto da Família</span>
+                        <span class="schedule-chip">Santa Ceia Mensal</span>
+                        <span class="schedule-chip">Espaço Kids</span>
+                    </div>
+                </article>
+
+                <!-- Liderança e Apoio Pastoral -->
+                <article class="schedule-card">
+                    <span class="schedule-day">Liderança Pastoral</span>
+                    <h3>Atendimento & Aconselhamento</h3>
+                    <div class="schedule-time-box">
+                        <time datetime="19:00">19:00</time>
+                        <span>Pr. Silvio Fernandes</span>
+                    </div>
+                    <p>
+                        Necessita de aconselhamento espiritual, visita pastoral ou oração individual? Converse com o pastor responsável ou agende um atendimento fraterno.
+                    </p>
+                    <div class="schedule-badge-list">
+                        <span class="schedule-chip">Aconselhamento</span>
+                        <span class="schedule-chip">Oração com Pastor</span>
+                        <span class="schedule-chip">Acolhimento</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         MINISTÉRIOS DA IGREJA
+         ========================================================================== -->
+    <section class="ministries-section section" id="ministerios" aria-labelledby="ministries-title">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-label">Vida da Igreja</span>
+                <h2 class="section-title" id="ministries-title">Ministérios Para Toda a Família</h2>
+                <p class="section-desc">
+                    Temos espaços dedicados a cada fase da vida, integrando crianças, jovens, homens e mulheres no serviço do Reino.
+                </p>
+            </div>
+
+            <div class="ministries-grid">
+                <!-- Crianças -->
+                <article class="ministry-card">
+                    <div class="ministry-icon" aria-hidden="true">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 21a9 9 0 100-18 9 9 0 000 18z"/>
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/>
+                        </svg>
+                    </div>
+                    <h3>Ministério Infantil (Quadrangular Kids)</h3>
+                    <p>
+                        Cuidado afetuoso e ensino bíblico lúdico e seguro para as crianças durante nossos encontros, formando a base cristã dos pequeninos.
+                    </p>
+                </article>
+
+                <!-- Jovens -->
+                <article class="ministry-card">
+                    <div class="ministry-icon" aria-hidden="true">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+                        </svg>
+                    </div>
+                    <h3>Geração Forte (Jovens & Adolescentes)</h3>
+                    <p>
+                        Uma juventude apaixonada por Jesus, engajada em amizades sadias, eventos de comunhão, adoração contemporânea e evangelismo urbano.
+                    </p>
+                </article>
+
+                <!-- Mulheres -->
+                <article class="ministry-card">
+                    <div class="ministry-icon" aria-hidden="true">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                        </svg>
+                    </div>
+                    <h3>Mulheres de Fé (GMM)</h3>
+                    <p>
+                        Grupo Missionário de Mulheres focado em oração, discipulado mútuo, fortalecimento do lar e reuniões edificantes.
+                    </p>
+                </article>
+
+                <!-- Homens -->
+                <article class="ministry-card">
+                    <div class="ministry-icon" aria-hidden="true">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>Homens de Honra (GMH)</h3>
+                    <p>
+                        Capacitação bíblica para líderes, pais e jovens adultos exercerem com retidão e sabedoria o sacerdócio de seus lares.
+                    </p>
+                </article>
+
+                <!-- Louvor & Artes -->
+                <article class="ministry-card">
+                    <div class="ministry-icon" aria-hidden="true">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 18V5l12-2v13"/>
+                            <circle cx="6" cy="18" r="3"/>
+                            <circle cx="18" cy="16" r="3"/>
+                        </svg>
+                    </div>
+                    <h3>Louvor & Adoração</h3>
+                    <p>
+                        Músicos e cantores dedicados a conduzir a igreja à presença de Deus através de hinos inspirados e louvor genuíno.
+                    </p>
+                </article>
+
+                <!-- Intercessão & Ação Social -->
+                <article class="ministry-card">
+                    <div class="ministry-icon" aria-hidden="true">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 00-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 010 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>Intercessão & Diaconia</h3>
+                    <p>
+                        Plantão contínuo de oração por pedidos do povo e assistência fraternal às famílias que necessitam de apoio na comunidade.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         PRÓXIMOS EVENTOS
+         ========================================================================== -->
+    <section class="events-section section" id="eventos" aria-labelledby="events-title">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-label">Agenda da Igreja</span>
+                <h2 class="section-title" id="events-title">Próximos Eventos & Celebrações</h2>
+                <p class="section-desc">
+                    Marque na sua agenda e venha viver momentos marcantes na presença do Senhor.
+                </p>
+            </div>
+
+            <div class="event-grid">
+                <!-- Evento 1 -->
+                <article class="event-card">
+                    <div class="event-banner">
+                        <div class="event-banner-pattern" aria-hidden="true"></div>
+                        <span class="event-badge-label">1º Domingo do Mês</span>
+                        <span class="event-badge-title">Santa Ceia</span>
+                    </div>
+                    <div class="event-body">
+                        <span class="event-meta">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            Domingo • 19:00 horas
+                        </span>
+                        <h3>Culto da Família com Santa Ceia</h3>
+                        <p>
+                            Momento sublime de renovação da aliança com Cristo, memória do sacrifício na cruz e comunhão entre irmãos.
+                        </p>
+                        <a class="btn btn-secondary event-btn" href="#oracao">Participar Conosco</a>
+                    </div>
+                </article>
+
+                <!-- Evento 2 -->
+                <article class="event-card">
+                    <div class="event-banner" style="background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);">
+                        <div class="event-banner-pattern" aria-hidden="true"></div>
+                        <span class="event-badge-label" style="background: rgba(255,255,255,0.15);">Vigília Especial</span>
+                        <span class="event-badge-title">Noite de Clamor</span>
+                    </div>
+                    <div class="event-body">
+                        <span class="event-meta">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            Mensal • Madrugada de Oração
+                        </span>
+                        <h3>Vigília de Fé & Avivamento</h3>
+                        <p>
+                            Intercessão intensa pelas famílias de Padre Miguel, pela nossa nação e por cura e restauração espiritual.
+                        </p>
+                        <a class="btn btn-secondary event-btn" href="#oracao">Enviar Motivo de Oração</a>
+                    </div>
+                </article>
+
+                <!-- Evento 3 -->
+                <article class="event-card">
+                    <div class="event-banner" style="background: linear-gradient(135deg, #581c87 0%, #7c3aed 100%);">
+                        <div class="event-banner-pattern" aria-hidden="true"></div>
+                        <span class="event-badge-label">Juventude IEQ</span>
+                        <span class="event-badge-title">Conexão Jovem</span>
+                    </div>
+                    <div class="event-body">
+                        <span class="event-meta">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <polyline points="12 6 12 12 16 14"/>
+                            </svg>
+                            Encontro Especial
+                        </span>
+                        <h3>Noite de Louvor e Adoração</h3>
+                        <p>
+                            Reunião dinâmica com louvor vibrante, reflexão bíblica contemporânea e muita comunhão entre os jovens da região.
+                        </p>
+                        <a class="btn btn-secondary event-btn" href="#contato">Convidar Amigos</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         DÍZIMOS, OFERTAS & CONTRIBUIÇÃO PIX
+         ========================================================================== -->
+    <section class="section" id="dizimos" aria-labelledby="pix-title" style="background-color: var(--bg-muted);">
+        <div class="container">
+            <div class="pix-card-box">
+                <div class="pix-text-area">
+                    <span style="color:#fde047; font-size:0.8125rem; font-weight:800; text-transform:uppercase; letter-spacing:0.08em; display:block; margin-bottom:10px;">
+                        Generosidade & Ministério
+                    </span>
+                    <h2 id="pix-title">Contribua com a Obra de Deus</h2>
+                    <p>
+                        Seus dízimos e ofertas voluntárias sustentam os cultos, a manutenção do templo, a pregação do Evangelho e os projetos sociais da nossa igreja em Padre Miguel.
+                    </p>
+                    <p class="pix-verse">
+                        “Cada um dê conforme determinou em seu coração, não com tristeza ou por obrigação, pois Deus ama quem dá com alegria.” — 2 Coríntios 9:7
+                    </p>
+                </div>
+
+                <div class="pix-interactive-widget">
+                    <div class="pix-key-label">Chave PIX Oficial da Igreja</div>
+                    <div class="pix-key-display" id="pixKeyText" title="Clique para copiar">ieqpadremiguel784@gmail.com</div>
+                    <button class="btn btn-primary pix-btn-copy" id="copyPixBtn" type="button">
+                        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+                            <path d="M5 15H4a2 2 0 01-2-2V4a2 2 0 012-2h9a2 2 0 012 2v1"/>
+                        </svg>
+                        <span>Copiar Chave PIX</span>
+                    </button>
+                    <small style="display:block; margin-top:10px; color:#94a3b8; font-size:0.75rem;">
+                        Identifique sua contribuição (Dízimo ou Oferta).
+                    </small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         PEDIDO DE ORAÇÃO INTERATIVO
+         ========================================================================== -->
+    <section class="prayer-section section" id="oracao" aria-labelledby="prayer-title">
+        <div class="container prayer-grid">
+            <div class="prayer-info-side">
+                <span class="section-label">Intercessão & Fé</span>
+                <h2 class="section-title" id="prayer-title">Queremos orar por você e sua família.</h2>
+                <p>
+                    Acreditamos no poder transformador da oração unida. Não importa o tamanho da sua luta ou dificuldade, nossa equipe pastoral e o grupo de intercessão estarão clamando ao Senhor pelo seu milagre.
+                </p>
+
+                <div class="prayer-verse-highlight">
+                    <blockquote>
+                        “A oração de um justo é poderosa e eficaz.”
+                    </blockquote>
+                    <figcaption>Tiago 5:16b</figcaption>
+                </div>
+
+                <p class="privacy-note">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                        <path d="M7 11V7a5 5 0 0110 0v4"/>
+                    </svg>
+                    <span>Seus pedidos são mantidos sob sigilo pastoral e apresentados no altar do Senhor.</span>
+                </p>
+            </div>
+
+            <!-- Cartão do Formulário de Oração -->
+            <div class="prayer-form-card">
+                <form id="prayerForm" novalidate aria-describedby="formMessage">
+                    <div class="form-group">
+                        <label class="form-label" for="nome">Seu Nome Completo *</label>
+                        <input class="form-control" type="text" id="nome" name="nome" placeholder="Ex: Maria de Souza" autocomplete="name" maxlength="80" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="telefone">WhatsApp / Telefone (Opcional)</label>
+                        <input class="form-control" type="tel" id="telefone" name="telefone" placeholder="(21) 99999-9999" autocomplete="tel">
+                        <small class="field-hint">Caso deseje receber uma palavra de conforto e oração pastoral.</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="categoria">Motivo Principal</label>
+                        <select class="form-control" id="categoria" name="categoria">
+                            <option value="Família e Casamento">Família e Casamento</option>
+                            <option value="Cura e Saúde">Cura Divina e Saúde</option>
+                            <option value="Libertação Espiritual">Vida Espiritual e Paz</option>
+                            <option value="Portas Abertas e Emprego">Portas de Emprego e Finanças</option>
+                            <option value="Ação de Graças">Ação de Graças e Agradecimento</option>
+                            <option value="Outro Motivo">Outro Motivo</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="form-label" for="pedido">Seu Pedido de Oração *</label>
+                        <textarea class="form-control" id="pedido" name="pedido" rows="4" placeholder="Escreva aqui como podemos orar por você..." maxlength="1000" required aria-describedby="pedidoHint"></textarea>
+                        <small id="pedidoHint" class="field-hint">Conte com a nossa intercessão. (Até 1.000 caracteres).</small>
+                    </div>
+
+                    <div style="display:flex; flex-direction:column; gap:12px;">
+                        <button class="btn btn-primary" id="submitPrayerBtn" type="submit" style="width:100%;">
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <line x1="22" y1="2" x2="11" y2="13"/>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                            </svg>
+                            Enviar Pedido de Oração
+                        </button>
+
+                        <button class="btn btn-secondary" id="sendDirectWhatsAppBtn" type="button" style="width:100%;">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="#25d366">
+                                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2z"/>
+                            </svg>
+                            Enviar Diretamente pelo WhatsApp
+                        </button>
+                    </div>
+
+                    <div class="form-message" id="formMessage" role="status" aria-live="polite"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         CONTATO & LOCALIZAÇÃO COM MAPA
+         ========================================================================== -->
+    <section class="contact section" id="contato" aria-labelledby="contact-title">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-label">Venha nos Conhecer</span>
+                <h2 class="section-title" id="contact-title">Localização & Contato</h2>
+                <p class="section-desc">
+                    Nossa igreja fica em um ponto de fácil acesso em Padre Miguel. Estaremos honrados com a sua presença.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Endereço -->
+                <article class="contact-card">
+                    <div class="contact-card-icon" aria-hidden="true">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3>Endereço</h3>
+                    <address>
+                        Rua Olímpia Esteves, 1592<br>
+                        Padre Miguel, Rio de Janeiro - RJ<br>
+                        <strong>CEP 21775-003</strong>
+                    </address>
+                    <a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Olimpia+Esteves+1592+Padre+Miguel+Rio+de+Janeiro+RJ+21775-003" target="_blank" rel="noopener noreferrer">
+                        Ver no Google Maps →
+                    </a>
+                </article>
+
+                <!-- Pastor Responsável -->
+                <article class="contact-card">
+                    <div class="contact-card-icon" aria-hidden="true">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <h3>Liderança</h3>
+                    <p>
+                        <strong>Pastor Silvio Fernandes</strong><br>
+                        Pastor responsável pela congregação de Padre Miguel - Região 784.
+                    </p>
+                    <a class="text-link" href="#oracao">Falar com o Pastor →</a>
+                </article>
+
+                <!-- Horário dos Cultos -->
+                <article class="contact-card">
+                    <div class="contact-card-icon" aria-hidden="true">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <h3>Horários</h3>
+                    <p>
+                        <strong>Quinta-feira:</strong> 19:00<br>
+                        <strong>Domingo:</strong> 19:00<br>
+                        <span>Portas abertas a partir das 18:30</span>
+                    </p>
+                    <a class="text-link" href="#programacao">Ver Programação →</a>
+                </article>
+
+                <!-- Redes Sociais & Contato -->
+                <article class="contact-card">
+                    <div class="contact-card-icon" aria-hidden="true">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </div>
+                    <h3>Comunicação</h3>
+                    <p>
+                        Acompanhe nossos avisos, mensagens bíblicas e transmissões pelas redes sociais.
+                    </p>
+                    <div style="display:flex; flex-direction:column; gap:6px;">
+                        <a class="text-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram Oficial →</a>
+                        <a class="text-link" href="https://youtube.com" target="_blank" rel="noopener noreferrer">Canal no YouTube →</a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Mapa Interativo e Como Chegar -->
+            <div class="map-interactive-box">
+                <div class="map-iframe-wrap">
+                    <iframe
+                        src="https://maps.google.com/maps?q=Rua+Olimpia+Esteves+1592+Padre+Miguel+Rio+de+Janeiro+RJ+21775-003&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                        loading="lazy"
+                        title="Mapa de localização da Igreja Quadrangular Padre Miguel"
+                        allowfullscreen
+                        referrerpolicy="no-referrer">
+                    </iframe>
+                </div>
+
+                <div class="map-directions-info">
+                    <h3>Como Chegar à Igreja</h3>
+                    <p>
+                        Estamos localizados na Rua Olímpia Esteves, uma das vias principais de ligação em Padre Miguel, com fácil acesso tanto para quem vem de carro quanto por transporte público.
+                    </p>
+
+                    <ul class="transport-tips">
+                        <li>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                <path d="M9 3v18M15 3v18"/>
+                            </svg>
+                            <span><strong>De Ônibus:</strong> Linhas municipais que circulam pelas vias de Padre Miguel e Bangu.</span>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"/>
+                                <path d="M12 6v6l4 2"/>
+                            </svg>
+                            <span><strong>De Trem (SuperVia):</strong> Próximo às estações Padre Miguel e Mocidade / Padre Miguel.</span>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.5 2.8C2.1 10.8 2 11 2 11.2V16c0 .6.4 1 1 1h2"/>
+                                <circle cx="7" cy="17" r="2"/>
+                                <circle cx="17" cy="17" r="2"/>
+                            </svg>
+                            <span><strong>De Carro:</strong> Acesso rápido pela Avenida Brasil ou Estrada da Água Branca.</span>
+                        </li>
+                    </ul>
+
+                    <a class="btn btn-primary" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rua+Olimpia+Esteves+1592+Padre+Miguel+Rio+de+Janeiro+RJ+21775-003" target="_blank" rel="noopener noreferrer">
+                        <span>Traçar Rota no GPS</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"/>
+                            <polyline points="12 5 19 12 12 19"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================================================
+         PERGUNTAS FREQUENTES (FAQ)
+         ========================================================================== -->
+    <section class="faq-section section" aria-labelledby="faq-title">
+        <div class="container">
+            <div class="section-heading">
+                <span class="section-label">Dúvidas Frequentes</span>
+                <h2 class="section-title" id="faq-title">Primeira Vez Conosco?</h2>
+                <p class="section-desc">
+                    Tudo o que você precisa saber para se sentir em casa em sua primeira visita.
+                </p>
+            </div>
+
+            <div class="faq-accordion" id="faqAccordion">
+                <!-- Pergunta 1 -->
+                <div class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>Como são os cultos da Igreja Quadrangular?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Nossos cultos são alegres, reverentes e bíblicos. Há momentos de louvor congregacional caloroso, momentos de oração pelas necessidades do povo e uma pregação expositiva da Bíblia Sagrada aplicável ao dia a dia. Todos são bem-vindos!
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pergunta 2 -->
+                <div class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>Preciso usar alguma roupa específica para participar?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Não. Venha com a roupa com a qual você se sinta confortável e respeitado. O Senhor olha para o coração, e nossa congregação se alegra em receber você com amor exatamente como você está.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pergunta 3 -->
+                <div class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>Há atividades para crianças durante o culto?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Sim! Contamos com tias e voluntários dedicados no Ministério Infantil (Quadrangular Kids), proporcionando lições bíblicas, desenhos e dinâmicas adequadas para a idade dos pequenos.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pergunta 4 -->
+                <div class="faq-item">
+                    <button class="faq-question" type="button" aria-expanded="false">
+                        <span>Como faço para receber uma visita ou oração em casa?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            Você pode conversar diretamente com o Pastor Silvio Fernandes no final dos cultos, preencher o formulário de pedido de oração nesta página informando seu contato, ou falar com a secretaria pelo WhatsApp.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ==========================================================================
+     RODAPÉ (FOOTER)
+     ========================================================================== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h4>Igreja do Evangelho Quadrangular</h4>
+                <p>Padre Miguel - Rio de Janeiro | Região 784</p>
+                <p style="font-size:0.875rem; color:#cbd5e1;">
+                    Rua Olímpia Esteves, 1592 - Padre Miguel, RJ<br>
+                    CEP: 21775-003 • Pastoreada pelo Pr. Silvio Fernandes
+                </p>
+                <span class="footer-scripture">“Jesus Cristo é o mesmo ontem, hoje e eternamente.” — Hebreus 13:8</span>
+            </div>
+
+            <div class="footer-col">
+                <h5>Navegação Rápida</h5>
+                <ul class="footer-links">
+                    <li><a href="#inicio">Página Inicial</a></li>
+                    <li><a href="#igreja">Nossa História</a></li>
+                    <li><a href="#doutrina">As 4 Ênfases da Fé</a></li>
+                    <li><a href="#programacao">Horários de Culto</a></li>
+                    <li><a href="#ministerios">Ministérios</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#dizimos">Dízimos & PIX</a></li>
+                    <li><a href="#oracao">Pedido de Oração</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h5>Cultos Semanais</h5>
+                <p style="font-size:0.9rem; color:#cbd5e1; margin-bottom:8px;">
+                    <strong>Quintas-feiras:</strong> 19:00h<br>
+                    <span>Culto de Celebração e Oração</span>
+                </p>
+                <p style="font-size:0.9rem; color:#cbd5e1; margin-bottom:16px;">
+                    <strong>Domingos:</strong> 19:00h<br>
+                    <span>Culto da Família e Adoração</span>
+                </p>
+                <a class="btn btn-light btn-sm" href="#contato">Ver Como Chegar</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <span id="currentYear">2026</span> Igreja do Evangelho Quadrangular - Padre Miguel (Região 784). Todos os direitos reservados.</p>
+            <p>Glória a Deus nas alturas e paz na terra aos homens de boa vontade.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Botão Flutuante do WhatsApp -->
+<a class="whatsapp-float" id="whatsappFloatingBtn" href="#" target="_blank" rel="noopener noreferrer" aria-label="Falar com a igreja pelo WhatsApp">
+    <svg class="whatsapp-float-icon" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zM17.47 15.14c-.23.65-1.15 1.24-1.61 1.28-.42.04-.97.16-3.15-.74-2.18-.9-3.56-3.15-3.67-3.3-.11-.15-.88-1.17-.88-2.24s.55-1.59.75-1.81c.2-.22.44-.28.59-.28.15 0 .29 0 .42.01.14.01.32-.05.5.39.19.45.64 1.57.7 1.69.06.12.1.26.02.42-.08.16-.12.26-.24.4-.12.14-.25.31-.36.42-.12.12-.25.25-.11.49.14.24.62 1.02 1.33 1.65.91.81 1.68 1.06 1.92 1.18.24.12.38.1.52-.06.14-.16.6-.7.76-.94.16-.24.32-.2.53-.12.21.08 1.35.64 1.58.75.23.11.38.17.44.27.06.1.06.58-.17 1.23z"/>
+    </svg>
+    <span class="whatsapp-label">Fale Conosco</span>
+</a>
+
+<!-- Toast para Mensagens Rápidas (ex: Chave PIX copiada) -->
+<div class="toast-notification" id="toastNotification" role="alert" aria-live="assertive">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#4ade80" stroke-width="2.5">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+    </svg>
+    <span id="toastMessage">Texto copiado!</span>
+</div>
+
+<!-- ==========================================================================
+     SCRIPTS MODERNOS & LÓGICA INTERATIVA EMBUTIDA
+     ========================================================================== -->
+<script>
+    /**
+     * CONFIGURAÇÃO GERAL DA IGREJA
+     * Ajuste o número de telefone e dados institucionais conforme necessário.
+     */
+    const CONFIG = {
+        // Telefone da Igreja com DDI e DDD (somente dígitos)
+        // Padrão: 55 + DDD (21 para RJ) + número
+        whatsappNumber: "5521999999999", 
+        pixKey: "ieqpadremiguel784@gmail.com",
+        churchName: "Igreja do Evangelho Quadrangular - Padre Miguel (Região 784)"
+    };
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // 1. Atualizar ano no rodapé
+        const yearSpan = document.getElementById("currentYear");
+        if (yearSpan) {
+            yearSpan.textContent = new Date().getFullYear();
+        }
+
+        // 2. Menu Mobile Drawer
+        const menuToggle = document.querySelector(".menu-toggle");
+        const mobileDrawer = document.getElementById("mobileDrawer");
+        const mobileOverlay = document.getElementById("mobileOverlay");
+        const closeDrawerBtn = document.getElementById("closeDrawerBtn");
+        const mobileLinks = document.querySelectorAll(".mobile-nav-link");
+
+        function openDrawer() {
+            if (!menuToggle || !mobileDrawer || !mobileOverlay) return;
+            menuToggle.setAttribute("aria-expanded", "true");
+            mobileDrawer.classList.add("is-active");
+            mobileOverlay.classList.add("is-active");
+            document.body.style.overflow = "hidden";
+        }
+
+        function closeDrawer() {
+            if (!menuToggle || !mobileDrawer || !mobileOverlay) return;
+            menuToggle.setAttribute("aria-expanded", "false");
+            mobileDrawer.classList.remove("is-active");
+            mobileOverlay.classList.remove("is-active");
+            document.body.style.overflow = "";
+        }
+
+        if (menuToggle) {
+            menuToggle.addEventListener("click", function () {
+                const isExpanded = menuToggle.getAttribute("aria-expanded") === "true";
+                if (isExpanded) {
+                    closeDrawer();
+                } else {
+                    openDrawer();
+                }
+            });
+        }
+
+        if (closeDrawerBtn) closeDrawerBtn.addEventListener("click", closeDrawer);
+        if (mobileOverlay) mobileOverlay.addEventListener("click", closeDrawer);
+
+        mobileLinks.forEach(function (link) {
+            link.addEventListener("click", closeDrawer);
+        });
+
+        // Fechar com tecla ESC
+        document.addEventListener("keydown", function (e) {
+            if (e.key === "Escape") closeDrawer();
+        });
+
+        // 3. Efeito de Scroll no Header
+        const header = document.querySelector(".header");
+        window.addEventListener("scroll", function () {
+            if (!header) return;
+            if (window.scrollY > 20) {
+                header.classList.add("scrolled");
+            } else {
+                header.classList.remove("scrolled");
+            }
+        }, { passive: true });
+
+        // 4. Copiar Chave PIX com Feedback
+        const copyPixBtn = document.getElementById("copyPixBtn");
+        const pixKeyText = document.getElementById("pixKeyText");
+
+        if (copyPixBtn && pixKeyText) {
+            copyPixBtn.addEventListener("click", function () {
+                const key = CONFIG.pixKey;
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(key).then(function () {
+                        showToast("Chave PIX copiada com sucesso!");
+                    }).catch(function () {
+                        fallbackCopyText(key);
+                    });
+                } else {
+                    fallbackCopyText(key);
+                }
+            });
+        }
+
+        function fallbackCopyText(text) {
+            const tempInput = document.createElement("input");
+            tempInput.value = text;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+            showToast("Chave PIX copiada!");
+        }
+
+        // 5. Exibir Toast de Notificação
+        function showToast(message) {
+            const toast = document.getElementById("toastNotification");
+            const toastMsg = document.getElementById("toastMessage");
+            if (!toast || !toastMsg) return;
+
+            toastMsg.textContent = message;
+            toast.classList.add("show");
+
+            setTimeout(function () {
+                toast.classList.remove("show");
+            }, 3500);
+        }
+
+        // 6. Configurar Botão Flutuante do WhatsApp
+        const whatsappBtn = document.getElementById("whatsappFloatingBtn");
+        if (whatsappBtn) {
+            const defaultMsg = encodeURIComponent("Olá! Encontrei o site da Igreja Quadrangular de Padre Miguel (Região 784) e gostaria de saber mais informações sobre os cultos.");
+            whatsappBtn.href = "https://wa.me/" + CONFIG.whatsappNumber + "?text=" + defaultMsg;
+        }
+
+        // 7. Formulário de Pedido de Oração
+        const prayerForm = document.getElementById("prayerForm");
+        const formMessage = document.getElementById("formMessage");
+        const sendDirectWhatsAppBtn = document.getElementById("sendDirectWhatsAppBtn");
+
+        if (prayerForm) {
+            prayerForm.addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                const nomeInput = document.getElementById("nome");
+                const telefoneInput = document.getElementById("telefone");
+                const categoriaSelect = document.getElementById("categoria");
+                const pedidoInput = document.getElementById("pedido");
+
+                const nome = nomeInput ? nomeInput.value.trim() : "";
+                const telefone = telefoneInput ? telefoneInput.value.trim() : "";
+                const categoria = categoriaSelect ? categoriaSelect.value : "Geral";
+                const pedido = pedidoInput ? pedidoInput.value.trim() : "";
+
+                if (!nome || !pedido) {
+                    if (formMessage) {
+                        formMessage.className = "form-message error";
+                        formMessage.textContent = "Por favor, preencha o seu nome e o seu pedido de oração.";
+                        formMessage.style.display = "block";
+                    }
+                    return;
+                }
+
+                // Simulação de envio com sucesso e confirmação imediata
+                if (formMessage) {
+                    formMessage.className = "form-message success";
+                    formMessage.innerHTML = "<strong>Amém, " + escapeHtml(nome) + "!</strong> Seu pedido de oração para a área de <em>" + escapeHtml(categoria) + "</em> foi recebido. Nossa equipe pastoral e de intercessão estará orando por você!";
+                    formMessage.style.display = "block";
+                }
+
+                showToast("Pedido de oração registrado!");
+
+                // Opcional: Limpar campos após o envio
+                prayerForm.reset();
+            });
+        }
+
+        // Enviar pedido direto para o WhatsApp do pastor/igreja
+        if (sendDirectWhatsAppBtn) {
+            sendDirectWhatsAppBtn.addEventListener("click", function () {
+                const nomeInput = document.getElementById("nome");
+                const categoriaSelect = document.getElementById("categoria");
+                const pedidoInput = document.getElementById("pedido");
+
+                const nome = nomeInput && nomeInput.value.trim() ? nomeInput.value.trim() : "Visitante";
+                const categoria = categoriaSelect ? categoriaSelect.value : "Oração";
+                const pedido = pedidoInput && pedidoInput.value.trim() ? pedidoInput.value.trim() : "Gostaria de pedir oração pela minha família.";
+
+                const msg = "Graça e Paz! Me chamo *" + nome + "*.\n" +
+                            "Gostaria de enviar um *Pedido de Oração* para a IEQ Padre Miguel (Região 784):\n\n" +
+                            "📌 *Área:* " + categoria + "\n" +
+                            "🙏 *Motivo:* " + pedido;
+
+                const url = "https://wa.me/" + CONFIG.whatsappNumber + "?text=" + encodeURIComponent(msg);
+                window.open(url, "_blank");
+            });
+        }
+
+        // 8. FAQ Accordion
+        const faqItems = document.querySelectorAll(".faq-item");
+        faqItems.forEach(function (item) {
+            const questionBtn = item.querySelector(".faq-question");
+            const answer = item.querySelector(".faq-answer");
+
+            if (!questionBtn || !answer) return;
+
+            questionBtn.addEventListener("click", function () {
+                const isOpen = item.classList.contains("is-open");
+
+                // Fechar outros accordions
+                faqItems.forEach(function (other) {
+                    if (other !== item) {
+                        other.classList.remove("is-open");
+                        const otherBtn = other.querySelector(".faq-question");
+                        const otherAns = other.querySelector(".faq-answer");
+                        if (otherBtn) otherBtn.setAttribute("aria-expanded", "false");
+                        if (otherAns) otherAns.style.maxHeight = null;
+                    }
+                });
+
+                if (isOpen) {
+                    item.classList.remove("is-open");
+                    questionBtn.setAttribute("aria-expanded", "false");
+                    answer.style.maxHeight = null;
+                } else {
+                    item.classList.add("is-open");
+                    questionBtn.setAttribute("aria-expanded", "true");
+                    answer.style.maxHeight = answer.scrollHeight + "px";
+                }
+            });
+        });
+
+        // 9. Aviso Dinâmico do Dia da Semana para os Cultos
+        const noticeEl = document.getElementById("scheduleNoticeText");
+        if (noticeEl) {
+            const today = new Date().getDay(); // 0 = Domingo, 4 = Quinta
+            if (today === 0) {
+                noticeEl.innerHTML = "<strong>Hoje é Domingo!</strong> Nosso Culto da Família acontece hoje às <strong>19:00</strong>. Venha adorar a Deus conosco!";
+            } else if (today === 4) {
+                noticeEl.innerHTML = "<strong>Hoje é Quinta-feira!</strong> Nosso Culto de Celebração e Oração acontece hoje às <strong>19:00</strong>. Venha ser abençoado!";
+            } else if (today === 3) {
+                noticeEl.innerHTML = "<strong>Amanhã tem culto!</strong> Quinta-feira às 19:00, culto de oração e fé. Participe!";
+            } else if (today === 6) {
+                noticeEl.innerHTML = "<strong>Amanhã é Domingo!</strong> Culto da Família às 19:00. Esperamos você e sua casa!";
+            }
+        }
+
+        // Função utilitária para sanitizar strings HTML
+        function escapeHtml(text) {
+            const div = document.createElement("div");
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    });
+</script>
+
+</body>
+</html>
